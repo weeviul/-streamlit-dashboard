@@ -36,4 +36,4 @@ if uploaded_file is not None:
         st.error(f"Fout bij inlezen bestand: {e}")
 else:
     st.info("⬆️ Upload een CSV-bestand om te starten.")
-foutief bestand verwijderd
+
