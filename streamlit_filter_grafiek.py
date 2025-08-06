@@ -52,6 +52,8 @@ if uploaded_file:
             ax.set_xlabel("Index")
         ax.set_ylabel(param)
         ax.grid(True)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
         st.pyplot(fig)
     else:
         st.warning("⚠️ Geen numerieke kolommen gevonden.")
