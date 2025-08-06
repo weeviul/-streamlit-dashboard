@@ -55,6 +55,8 @@ if uploaded_file:
         plt.xticks(rotation=45)
         plt.tight_layout()
         st.pyplot(fig)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
     else:
         st.warning("⚠️ Geen numerieke kolommen gevonden.")
 else:
