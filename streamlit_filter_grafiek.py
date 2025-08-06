@@ -53,6 +53,8 @@ if uploaded_file:
         ax.set_ylabel(param)
         ax.grid(True)
         st.pyplot(fig)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
     else:
         st.warning("⚠️ Geen numerieke kolommen gevonden.")
 else:
